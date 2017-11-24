@@ -40,7 +40,7 @@ def split_cloud(cloud):
 
   return objects_cloud, table_cloud
 ```
-- First I reduced the noise by taking statistical outliers by using 
+- First I reduced the noise by taking statistical outliers by using make_statistical_outlier_filter ( mean = 50, stdev = 0.5 )
 - Then, downsized the number of the points coming from rgbd camera by using voxel_grid_filter
 - I got rid of the points that are not in the focus area by using make_passthrough_filter
 - I seperated objects and table by using ransac segmentation
