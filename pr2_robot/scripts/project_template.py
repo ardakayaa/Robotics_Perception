@@ -26,7 +26,7 @@ import yaml
 
 
 CURRENT_TEST_SCENE = 2
-MODEL_PATH = '/home/robond/catkin_ws/src/RoboND-Perception-Project/pr2_robot/scripts/model_2.sav'
+MODEL_PATH = '/home/robond/catkin_ws/src/RoboND-Perception-Project/pr2_robot/scripts/model.sav'
 OUTPUT_FILENAME = "output_" + str(CURRENT_TEST_SCENE) + '.yaml'
 
 
