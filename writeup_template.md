@@ -42,11 +42,11 @@ def split_cloud(cloud):
 ```
 - First I reduced the noise by taking statistical outliers by using make_statistical_outlier_filter ( mean = 50, stdev = 0.5 )
 - Then, downsized the number of the points coming from rgbd camera by using voxel_grid_filter
-- I got rid of the points that are not in the focus area by using make_passthrough_filter
+- I excluded the points that are not in the focus area by using make_passthrough_filter
 - I seperated objects and table by using ransac segmentation
 
 ## Getting Clusters
-- To recognize objects, I used EuclideanClusterExtraction(). It uses Density information of the cloud data coming from RGBD camera to create clusters.
+- To recognize objects, I used EuclideanClusterExtraction(). It uses Density information of the cloud data coming from RGBD camera.
 ```
 def get_clusters(cloud, tolerance, min_size, max_size):
 
