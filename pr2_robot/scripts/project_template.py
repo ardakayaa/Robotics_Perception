@@ -25,7 +25,7 @@ from rospy_message_converter import message_converter
 import yaml
 
 
-CURRENT_TEST_SCENE = 2
+CURRENT_TEST_SCENE = 3
 MODEL_PATH = '/home/robond/catkin_ws/src/RoboND-Perception-Project/pr2_robot/scripts/model.sav'
 OUTPUT_FILENAME = "output_" + str(CURRENT_TEST_SCENE) + '.yaml'
 

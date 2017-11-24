@@ -63,3 +63,29 @@ def get_clusters(cloud, tolerance, min_size, max_size):
   clusters = extraction_object.Extract()
   return clusters
 ```
+
+## Recognize
+- I used the model from trained model as discussed earlier. 
+
+# Output YAML files
+- [Test Scene 1](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/output_1.yaml)
+- [Test Scene 2](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/output_2.yaml)
+- [Test Scene 3](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/output_3.yaml)
+
+# Files 
+- [Project Script](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/project_template.py)
+- [Resulting Model](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/model.sav)
+- [Capture Features Script](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/capture_features.py)
+- [Training Script](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/train_svm.py)
+
+# Results
+![result](https://github.com/mithi/perception-pr2/blob/master/img/label_test3.png)
+![result 1](https://github.com/mithi/perception-pr2/blob/master/img/test1.png)
+![result 2](https://github.com/mithi/perception-pr2/blob/master/img/test2.png)
+![result 3](https://github.com/mithi/perception-pr2/blob/master/img/test3.png)
+
+
+# Reflections and Future Work
+- My trained model`s succes rate is around %70, it has difficulties while recognizing the glue and the book, but still covers the minimal needs of this project. I will be improving it by increasing database.
+- I couldn`t work on the challenge scenario, I will be checking it later on.
+ 
