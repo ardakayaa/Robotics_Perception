@@ -47,7 +47,7 @@ def split_cloud(cloud):
 
 ## Getting Clusters
 - To recognize objects, I used EuclideanClusterExtraction(). It uses Density information of the cloud data coming from RGBD camera to create clusters.
-'''
+```
 def get_clusters(cloud, tolerance, min_size, max_size):
 
   tree = cloud.make_kdtree()
@@ -62,4 +62,4 @@ def get_clusters(cloud, tolerance, min_size, max_size):
   # 'clusters' is effectively a list of lists, with each list containing indices of the cloud
   clusters = extraction_object.Extract()
   return clusters
-'''
+```
