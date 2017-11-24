@@ -79,10 +79,9 @@ def get_clusters(cloud, tolerance, min_size, max_size):
 - [Training Script](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/train_svm.py)
 
 # Results
-![result](https://github.com/mithi/perception-pr2/blob/master/img/label_test3.png)
-![result 1](https://github.com/mithi/perception-pr2/blob/master/img/test1.png)
-![result 2](https://github.com/mithi/perception-pr2/blob/master/img/test2.png)
-![result 3](https://github.com/mithi/perception-pr2/blob/master/img/test3.png)
+![Scene 1](https://github.com/ardakayaa/Robotics_Perception/blob/master/img/Scene_1.png)
+![Scene 2](https://github.com/ardakayaa/Robotics_Perception/blob/master/img/Scene_2.png)
+![Scene 3](https://github.com/ardakayaa/Robotics_Perception/blob/master/img/Scene_3.png)
 
 
 # Reflections and Future Work
