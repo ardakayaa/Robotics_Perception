@@ -9,6 +9,14 @@ This is my submission as partial fulfillment of [Udacity's Robotics Nanodegree](
 
 
 # Output YAML files
-- [Test Scene 1](https://github.com/mithi/perception-pr2/blob/master/src/RoboND-Perception-Project/pr2_robot/scripts/output_1.yaml)
-- [Test Scene 2](https://github.com/mithi/perception-pr2/blob/master/src/RoboND-Perception-Project/pr2_robot/scripts/output_2.yaml)
-- [Test Scene 3](https://github.com/mithi/perception-pr2/blob/master/src/RoboND-Perception-Project/pr2_robot/scripts/output_3.yaml)
+- [Test Scene 1](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/output_1.yaml)
+- [Test Scene 2](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/output_2.yaml)
+- [Test Scene 3](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/output_3.yaml)
+
+# Files 
+- [Project Script](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/project_template.py)
+- [Resulting Model](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/model.sav)
+- [Capture Features Script](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/capture_features.py)
+- [Training Script](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/train_svm.py)
+
+
