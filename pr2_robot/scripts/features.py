@@ -34,9 +34,9 @@ def compute_color_histograms(cloud, using_hsv=True):
         channel_3_vals.append(color[2])
     
     # TODO: Compute histograms - Benim guncelledigim
-    h_hist = np.histogram(channel_1_vals, bins=32, range=(0, 256))
-    s_hist = np.histogram(channel_2_vals, bins=32, range=(0, 256))
-    v_hist = np.histogram(channel_3_vals, bins=32, range=(0, 256))
+    h_hist = np.histogram(channel_1_vals, bins=64, range=(0, 256))
+    s_hist = np.histogram(channel_2_vals, bins=64, range=(0, 256))
+    v_hist = np.histogram(channel_3_vals, bins=64, range=(0, 256))
     # TODO: Concatenate and normalize the histograms
     hist_features = np.concatenate((h_hist[0], s_hist[0], v_hist[0])).astype(np.float64)
     # Generate random features for demo mode.  
@@ -58,9 +58,9 @@ def compute_normal_histograms(normal_cloud):
         norm_z_vals.append(norm_component[2])
 
     # TODO: Compute histograms of normal values (just like with color)
-    h_hist = np.histogram(norm_x_vals, bins=32, range=(0, 256))
-    s_hist = np.histogram(norm_y_vals, bins=32, range=(0, 256))
-    v_hist = np.histogram(norm_z_vals, bins=32, range=(0, 256))
+    h_hist = np.histogram(norm_x_vals, bins=64, range=(-1, 1))
+    s_hist = np.histogram(norm_y_vals, bins=64, range=(-1, 1))
+    v_hist = np.histogram(norm_z_vals, bins=64, range=(-1, 1))
     # TODO: Concatenate and normalize the histograms
     hist_features = np.concatenate((h_hist[0], s_hist[0], v_hist[0])).astype(np.float64)
     # Generate random features for demo mode.  
