@@ -4,7 +4,7 @@ on the appropriate dropbox.
 
 This is my submission as partial fulfillment of [Udacity's Robotics Nanodegree](https://udacity.com/robotics).
 
-# [RESUBMIT](https://github.com/ardakayaa/Robotics_Perception/blob/master/writeup_template.md)
+# [RESUBMIT-features.py](https://github.com/ardakayaa/Robotics_Perception/blob/master/pr2_robot/scripts/features.py)
 
 # [WRITEUP](https://github.com/ardakayaa/Robotics_Perception/blob/master/writeup_template.md)
 
